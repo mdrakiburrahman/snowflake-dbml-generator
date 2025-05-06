@@ -53,7 +53,9 @@ pip install snowflake-dbml-generator
 ```bash
 git clone https://github.com/ryanrozich/snowflake-dbml-generator.git
 cd snowflake-dbml-generator
-pip install -e .
+python -m venv venv
+.\venv\Scripts\Activate.ps1
+pip install -r requirements.txt
 ```
 
 ## Usage
